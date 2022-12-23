@@ -1,5 +1,14 @@
+import { FileUploader } from './components/FileUploader';
+import { FileList } from './components/FileList';
+
 function App() {
-  return <div>Hello, world!</div>;
+  return (
+    <div className="container">
+      <h1>Minio CRUD</h1>
+      <FileUploader />
+      <FileList />
+    </div>
+  );
 }
 
 export default App;

@@ -1,0 +1,41 @@
+* {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+  flex-direction: column;
+}
+
+.file-list a {
+  color: black;
+}
+
+.file-list button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.file-uploader .file-uploader-content {
+  display: flex;
+  align-items: center;
+}
+
+.file-uploader .file-uploader-selector {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.file-uploader .file-uploader-selector input {
+  display: none;
+}
+
+.file-uploader button {
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
